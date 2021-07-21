@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API meteo</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./APImeteo.css">
+    <script src="https://kit.fontawesome.com/6d9cb8bfdb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <h1 class="titre">Meteo <i class="fas fa-cloud"></i></h1>
+    <form>
+        <div class="form-group">
+          <label for="cp2"></label>
+          <input type="text" placeholder="Ville" class="form-control" name="cp2" id="cp2">
+          <p class="erreur"></p>
+          <button class="button" type="submit">Rechercher</button>
+        </div>
+      </form>
+
+      <div class="container">
+er          <div class="temp"></div>
+          <div class="humid"></div>
+          <div class="vent"></div>
+      </div>
+
+      <footer>
+          <div class="meteo">Meteo</div>
+      </footer>
+
+
+
+  <script src="APImeteo.js"></script>
+</body>
+</html>
