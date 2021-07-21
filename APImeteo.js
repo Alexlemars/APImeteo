@@ -29,5 +29,6 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
     let ville = document.querySelector('#cp2').value
     apiCall(ville)
+    form.reset();
 })
 apiCall("Paris")
